@@ -1,4 +1,4 @@
-/* Styles for all devices */
+
 body {
     color: white;
     background-color: powderblue;
@@ -16,7 +16,7 @@ h1 {
     width: 15em;
 }
 
-/* Styles for printing */
+
 @media print {
     body {
         color: black;
@@ -28,6 +28,6 @@ h1 {
     }
 
     .navbar {
-        display: none; /* Hide the navbar when printing */
+        display: none;
     }
 }
