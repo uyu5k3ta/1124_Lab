@@ -1,0 +1,33 @@
+/* Styles for all devices */
+body {
+    color: white;
+    background-color: powderblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+}
+
+.navbar {
+    position: relative;
+    top: 2em;
+    left: 2em;
+    width: 15em;
+}
+
+/* Styles for printing */
+@media print {
+    body {
+        color: black;
+        background-color: white;
+    }
+
+    h1 {
+        font-family: Times New Roman, serif;
+    }
+
+    .navbar {
+        display: none; /* Hide the navbar when printing */
+    }
+}
